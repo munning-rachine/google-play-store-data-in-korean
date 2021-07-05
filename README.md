@@ -6,7 +6,7 @@
 3.	PalystoreBest
 
 #### PlaystoreData
-1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30]
+1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30 21:30]
 2.	App Name : 앱 이름
 3.	App Developer : 앱 개발사
 4.	App Category : 앱 종류
@@ -17,7 +17,7 @@
 9.	App Limit : 앱 나이 제한 / numerical
 
 #### PlaystoreReviewData
-1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30]
+1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30 21:30]
 2.	App Name : 앱 이름
 3.	Comment Date : 리뷰 날짜
 4.	User: 사용자
@@ -27,7 +27,7 @@
 8.	Answer : 개발사 답변
 
 #### PlaystoreBest
-1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30]
+1.	Collection Date : 데이터 수집 날짜 / 형식[2020-06-30 21:30]
 2.	App Name : 앱 이름
 3.	App Developer : 앱 개발사
 4.	App Category : 앱 종류
@@ -38,10 +38,10 @@
 
 ### Data Description
 리뷰 수집은 PlaystoreData 및 PlaystoreReviewData를 기준으로 [구글 플레이스토어]-[앱]-[카테고리:게임]-[인기차트]-[인기 앱/게임]에서 수집됩니다.  
-각 앱에 대한 리뷰 수집 옵션은 관련성순, 모든 기기, 평점 전체로 120개씩 수집됩니다.  
+각 앱에 대한 리뷰 수집 옵션은 '관련성순, 모든 기기, 평점 전체'의 조건으로 최대 120개까지 수집됩니다.  
 Comment는 사용자 리뷰가 공백 포함하여 300자를 넘은 경우에도 전체 리뷰를 모두 반영하여 수집됩니다.  
 수집되는 앱의 개수는, 수집되는 매 횟수마다 상위 100개씩 수집됩니다.  
-따라서 오류가 발생하지 않았을 경우, 한 수집 당 총 12,000개의 리뷰로 리뷰 내 문장 개수는 제한 없이 수집됩니다.
+따라서 오류가 발생하지 않았을 경우, 한 수집 당 총 최대 12,000개의 리뷰로 리뷰 내 문장 개수는 제한 없이 수집됩니다.
 
 PlaystoreBest는 [구글 플레이스토어]-[앱]-[카테고리:게임]-[인기차트]-[최고 매출 게임]에서 수집됩니다.
 이 데이터셋은 인기 앱/게임에 속하는 게임과 실제 매출을 비교하기 위한 자료입니다.
